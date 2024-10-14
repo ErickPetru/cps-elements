@@ -1,51 +1,54 @@
+> [!NOTE]
+> This fork of [cps-elements](https://github.com/cpsrepositorio/cps-elements/) in my personal account is for giving more visibility to the project, especially to non Portuguese-speaking people, by offering this `README` in English. Anyway, contributions directly here are allowed, since both repos are synced often.
+
 # CPS Elements
 
-**Web Components de ponta, sem complicação.**
+**Cutting-edge Web Components, hassle-free.**
 
-- Componentes no navegador, sem _frameworks_; 🌐
-- E nativamente em _frameworks_ como [Vue](./docs/frameworks/vue) e [Angular](./docs/frameworks/angular); 🧩
-- Ou com _wrappers_ inclusos para suportar [React](./docs/frameworks/react); ⚛️
-- Empacotado para acesso direto por [CDN](./docs/fundamentos/instalação.md#através-de-cdn); 📦
-- Totalmente aderente ao [CPS Design System](https://cpsrepositorio.github.io/cps-design-system/); 🎨
-- Incluindo tema para modo escuro; 😎
-- Mas totalmente personalizável com CSS; 📝
-- Construído com acessibilidade em mente; ♿️
-- Em português, mas com suporte a outros idiomas; 💬
-- E totalmente _open-source_! 🔓
+- Components in the browser, without _frameworks_; 🌐
+- And natively supported in _frameworks_ like [Vue](./docs/frameworks/vue) and [Angular](./docs/frameworks/angular); 🧩
+- Or with included _wrappers_ to support [React](./docs/frameworks/react); ⚛️
+- Packaged for direct access via [CDN](./docs/fundamentos/instalacao.md#atraves-de-cdn); 📦
+- Fully compliant with the [CPS Design System](https://cpsrepositorio.github.io/cps-design-system/); 🎨
+- Including a dark mode theme; 😎
+- But fully customizable with CSS; 📝
+- Built with accessibility in mind; ♿️
+- In Portuguese, but supporting internationalization; 💬
+- And completely _open-source_! 🔓
 
-CPS Elements é parte do projeto de UI/UX institucional, que também sustenta o CPS Design System, projetados originalmente pelo professor [Erick Petrucelli](https://github.com/ErickPetru). Independentemente de suas origens e motivações iniciais, é um projeto totalmente _open-source_ disponível sob os termos da [licença MIT](LICENSE.md).
-
----
-
-Documentação: [cpsrepositorio.github.io/cps-elements](https://cpsrepositorio.github.io/cps-elements/)
-
-Código-fonte: [github.com/cpsrepositorio/cps-elements](https://github.com/cpsrepositorio/cps-elements/)
+CPS Elements is part of an institutional UI/UX project for the ["Paula Souza" State Center for Technological Education](https://www.cps.sp.gov.br/), a São Paulo State governmental educational autarchy. The project is also composed of the CPS Design System, originally designed by Professor [Erick Petrucelli](https://github.com/ErickPetru). Regardless of its origins and initial motivations, it is a completely _open-source_ project available under the terms of the [MIT license](LICENSE.md).
 
 ---
 
-## Do que se trata este projeto?
+Documentation: [cpsrepositorio.github.io/cps-elements](https://cpsrepositorio.github.io/cps-elements/)
 
-Após muito tempo, finalmente temos uma forma nativa de criar [nossos próprios elementos HTML](https://developer.mozilla.org/pt-BR/docs/Web/Web_Components) e usá-los com qualquer _framework_ JavaScript que quisermos, ou mesmo sem qualquer _framework_! Embora seja uma especificação nativa [com excelente suporte em navegadores modernos](https://caniuse.com/custom-elementsv1), construir todos os componentes, do zero, se encaixando apropriadamente e seguindo as melhores práticas, é uma ação custosa que muitas equipes não podem assumir (e nem deveriam).
+Source code: [github.com/cpsrepositorio/cps-elements](https://github.com/cpsrepositorio/cps-elements/)
 
-CPS Elements provê uma coleção de componentes profissionalmente projetados, criados com tecnologia agnóstica de _frameworks_, aderentes ao _design_ estabelecido no [CPS Design System](https://cpsrepositorio.github.io/cps-design-system/). Assim, você pode começar seus projetos sem ter que reinventar a roda, se baseando em uma biblioteca de componentes moderna, diretamente no navegador (apenas com HTML e JavaScript padrão), ou junto ao seu _framework_ preferido, seja ele React, Vue, ou Angular.
+---
 
-## Como executar os códigos-fonte?
+## What is this project about?
 
-Se você é ou quer ser um contribuidor, ou seja um "desenvolvedor CPS Elements", você pode usar esta documentação para entender como construir o CPS Elements a partir dos códigos-fonte. Você precisará de um ambiente executando [Node](https://nodejs.org/en) a partir da versão `14.17`, para compilar e executar o projeto localmente.
+After a long time, we finally have a native way to create [our own HTML elements](https://developer.mozilla.org/docs/Web/Web_Components) and use them with any JavaScript _framework_ we want, or even without any _framework_! Although it is a native specification [with excellent support in modern browsers](https://caniuse.com/custom-elementsv1), building all the components from scratch, fitting properly and following best practices, is a costly action that many teams cannot take on (and shouldn't).
 
-**Você não precisa fazer nada disso para usar CPS Elements!** Esta página é direcionada a pessoas que querem contribuir com o projeto, ajustar seus códigos-fonte, ou mesmo construir algo novo a partir do CPS Elements.
+CPS Elements provides a collection of professionally designed components, created with framework-agnostic technology, adhering to the design established in the [CPS Design System](https://cpsrepositorio.github.io/cps-design-system/). Thus, you can start your projects without having to reinvent the wheel, based on a modern component library, directly in the browser (using only standard HTML and JavaScript), or along with your favorite _framework_, be it React, Vue, or Angular.
 
-Se isso não é o que você está tentando fazer, a [documentação](https://cpsrepositorio.github.io/cps-elements) é onde você realmente quer estar para começar.
+## How to run the source code?
 
-### O que estão usando para construir o CPS Elements?
+If you are or want to be a contributor, you can use this documentation to understand how to build CPS Elements from the source code. You will need an environment running [Node](https://nodejs.org/en) from version `14.17`, to compile and run the project locally.
 
-Os componentes em si são feitos com [LitElement](https://lit-element.polymer-project.org/), uma classe base de criação de elementos customizados que oferece uma API intuitiva e suporte a interligação reativa de dados. A construção do pacote distribuível é então realizada através de um _script_ de _build_ personalizado, montado com [esbuild](https://esbuild.github.io/).
+**You don't need to do any of this to use CPS Elements!** This page is aimed at people who want to contribute to the project, adjust its source code, or even build something new based on CPS Elements.
 
-A base é esta, mas muitas outras técnicas e tecnologias estão em uso, como CSS com _custom properties_ (variáveis), TypeScript, Iconify, Web Test Runner, ESLint, Prettier, dentre outros. Passear por este repositório por um tempo é a melhor forma de observar tudo que está em uso para criação desta biblioteca de componentes.
+If this is not what you are trying to do, the [documentation](https://cpsrepositorio.github.io/cps-elements) is where you really want to be to get started with using the components.
 
-### Ramificando o repositório
+### What are you using to build CPS Elements?
 
-Como de praxe em projetos _open-source_, comece a contribuir [criando sua própria ramificação](https://github.com/cpsrepositorio/cps-elements/fork) no GitHub, e então faça um clone local, por fim instalando as dependências.
+The components themselves are made with [LitElement](https://lit-element.polymer-project.org/), a base class for creating custom elements that offers an intuitive API and support for reactive data binding. The build package is then created through a custom build script, assembled with [esbuild](https://esbuild.github.io/).
+
+The base is like that, but many other techniques and technologies are in use, such as CSS with _custom properties_ (variables), TypeScript, Iconify, Web Test Runner, ESLint, Prettier, among others. Browsing this repository for a while is the best way to observe everything that is in use to create this component library.
+
+### Forking the repository
+
+As is common in _open-source_ projects, start contributing by [creating your own fork](https://github.com/cpsrepositorio/cps-elements/fork) on GitHub, and then make a local clone, finally installing the dependencies.
 
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/cps-elements
@@ -53,53 +56,53 @@ cd cps-elements
 npm install
 ```
 
-### Desenvolvendo
+### Developing
 
-Assim que clonado o repositório, execute o comando:
+Once the repository is cloned, run the command:
 
 ```bash
 npm run dev
 ```
 
-Isto iniciará o servidor de desenvolvimento local do CPS Elements. Após a construção inicial (que pode demorar um pouco mais do que as posteriores), seu navegador padrão abrirá automaticamente.
+This will start the local development server for CPS Elements. After the initial build (which may take a bit longer than subsequent ones), your default browser will open automatically.
 
-Não há recurso de _hot module reloading_ (HMR) neste projeto, uma vez que os navegadores não oferecem um mecanismo para re-registrar elementos customizados, então, em geral, após salvar mudanças nos códigos-fontes, seu navegador recarregará a página por completo para exibir os conteúdos atualizados.
+There is no _hot module reloading_ (HMR) feature in this project, as browsers do not offer a mechanism to re-register custom elements, so generally, after saving changes to the source code, your browser will reload the page completely to display the updated content.
 
-A documentação deste projeto é escrita em Markdown e gerada como _site_ estático através do Docsify, em tempo de execução. Desta forma, não é um _script_ de compilação da documentação e ela pode ser alterada em tempo real, o que também ocasionará o recarregamento completa do navegador após um salvamento.
+The documentation for this project is written in Markdown and generated as a static site through Docsify, at runtime. Thus, there is no documentation build script, and it can be changed in real-time, which will also cause the browser to reload completely after a save.
 
-### Compilando
+### Building
 
-Para gerar uma compilação para produção, execute o comando:
+To generate a production build, run the command:
 
 ```bash
 npm run build
 ```
 
-A compilação para produção pode ser testada localmente em seguida, com:
+The production build can then be tested locally with:
 
 ```bash
 npm start
 ```
 
-### Criando novos componentes
+### Creating new components
 
-Há um _script_ NPM disponível para gerar a base de novos componentes. Para tal, execute o comando a seguir, substituindo `cps-tag-name` o nome de _tag_ HTML desejado para o novo componente.
+There is an NPM script available to generate the base for new components. To do this, run the following command, replacing `cps-tag-name` with the desired HTML tag name for the new component.
 
 ```bash
 npm run create cps-tag-name
 ```
 
-Isso gerará um arquivo `.ts` de código-fonte, um arquivo de estilos, e uma página de documentação para o novo componente. Quando você iniciar o servidor de desenvolvimento, você encontrará automaticamente o novo componente na sessão "Componentes" da barra de navegação lateral.
+This will generate a source code `.ts` file, a styles file, and a documentation page for the new component. When you start the development server, you will automatically find the new component in the "Components" section of the sidebar.
 
-### Contribuindo
+### Contributing
 
-Embora uma iniciativa originada como parte do projeto de UI/UX institucional, que também sustenta o CPS Design System, CPS Elements é um projeto _open-source_ e contribuições são encorajadas! Se você tem interesse em contribuir, por favor, confira primeiro as [instruções para contribuição](CONTRIBUTING.md).
+Although an initiative originated as part of an internal UI/UX project, which also supports the CPS Design System, CPS Elements is an _open-source_ project, and contributions are encouraged! If you are interested in contributing, please first check the [contribution guidelines](CONTRIBUTING.md).
 
-Qualquer tipo de suporte que você oferecer, será muito apreciado! 👇
+Any kind of support you offer will be greatly appreciated! 👇
 
-- [Curtir o repositório](https://github.com/cpsrepositorio/cps-elements/stargazers)
-- [Clonar para contribuir](https://github.com/cpsrepositorio/cps-elements/fork)
+- [Star the repository](https://github.com/cpsrepositorio/cps-elements/stargazers)
+- [Fork to contribute](https://github.com/cpsrepositorio/cps-elements/fork)
 
-## Licença
+## License
 
-CPS Elements foi projetado inicialmente pelo professor [Erick Petrucelli](https://github.com/ErickPetru). Está disponível sob os termos da [licença MIT](LICENSE.md).
+CPS Elements was initially designed by Professor [Erick Petrucelli](https://github.com/ErickPetru). It is available under the terms of the [MIT license](LICENSE.md).
