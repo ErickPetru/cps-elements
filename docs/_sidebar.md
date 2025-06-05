@@ -27,7 +27,7 @@
   - [Card](/componentes/card)
   - [Checkbox](/componentes/checkbox)
   - [Chip](/componentes/chip)
-  - [Dialog <small>(em breve)</small>](/componentes/dialog)
+  - [Dialog](/componentes/dialog)
   - [Drawer <small>(em breve)</small>](/componentes/drawer)
   - [Dropdown](/componentes/dropdown)
   - [Grid View <small>(em breve)</small>](/componentes/grid-view)
@@ -43,7 +43,7 @@
   - [Menu Label](/componentes/menu-label)
   - [Notification](/componentes/notification)
   - [Option](/componentes/option)
-  - [Progress <small>(em breve)</small>](/componentes/progress)
+  - [Progress](/componentes/progress)
   - [Radio](/componentes/radio)
   - [Radio Group](/componentes/radio-group)
   - [Rating <small>(em breve)</small>](/componentes/rating)
@@ -67,13 +67,14 @@
 - Utilitários
 
   - [Flyout](/utilitários/flyout)
-  - [Format Date <small>(em breve)</small>](/utilitários/format-date)
-  - [Format Number <small>(em breve)</small>](/utilitários/format-number)
-  - [Format Relative Time <small>(em breve)</small>](/utilitários/format-relative-time)
+  - [Format Bytes](/utilitários/format-bytes)
+  - [Format Date](/utilitários/format-date)
+  - [Format Number](/utilitários/format-number)
+  - [Format Relative Time](/utilitários/format-relative-time)
   - [Include](/utilitários/include)
   - [Mutation Observer <small>(em breve)</small>](/utilitários/mutation-observer)
   - [Resize Observer <small>(em breve)</small>](/utilitários/resize-observer)
-  - [Visually Hidden <small>(em breve)</small>](/utilitários/visually-hidden)
+  - [Visually Hidden](/utilitários/visually-hidden)
   - [<code>...</code> <small>(em breve)</small>](/404)
 
 - Variáveis de estilo

@@ -6,6 +6,75 @@ O versionamento deste projeto é aderente aos princípios de [Semantic Versionin
 
 ## Unreleased
 
+## 0.19.0 - 2025-05-29
+
+### Added
+
+- Criação do componente `<cps-progress>`.
+
+### Changed
+
+- Adição de variável `--cps-color-stroke-tertiary` nos temas claro e escuro.
+
+## 0.18.0 - 2025-05-14
+
+### Added
+
+- Criação do utilitário de acessibilidade `<cps-visually-hidden>`.
+
+### Changed
+
+- Vinculação da documentação de acessibilidade com as documentações pertinentes dos componentes e utilitários específicos.
+
+### Fixed
+
+- Exportação faltando da função `toast` do componente `<cps-dialog>`.
+
+## 0.17.2 - 2025-05-08
+
+### Changed
+
+- Normalização do local do arquivo de implementação dos componentes, sem impacto na forma de utilização.
+- Correções na documentação do `<cps-avatar>`.
+
+## 0.17.1 - 2025-04-29
+
+### Changed
+
+- Reduzida a duração da animação padrão de ocultamento de _backdrop_ no `<cps-dialog>`.
+- Adiciona `<cps-tooltip>` por padrão ao botão fechar do `<cps-dialog>`.
+- Ajustes finos na aparência do `<cps-dialog>`.
+
+### Fixed
+
+- Exportação faltando das funções `showAlert` e `showConfirm` do componente `<cps-dialog>`.
+
+## 0.17.0 - 2025-04-28
+
+### Added
+
+- Criação do componente `<cps-dialog>`.
+- Definição do tipo de evento `cps-after-close`.
+- Definição do tipo de evento `cps-initial-focus`.
+- Definição do tipo de evento `cps-request-close`.
+
+### Changed
+
+- 🚨 **BREAKING**: Variável CSS `--cps-color-background-overlay` renomeada para `--cps-color-backdrop`, para maior aderência com seu caso de uso real em conjunto com o componente `<cps-dialog>`.
+
+## 0.16.0 - 2025-04-03
+
+### Added
+
+- Criação do utilitário `<cps-format-bytes>`.
+- Criação do utilitário `<cps-format-date>`.
+- Criação do utilitário `<cps-format-number>`.
+- Criação do utilitário `<cps-format-relative-time>`.
+
+### Changed
+
+- Correção da importação do componente `<cps-logo>`, em ambientes que exigem extensão de arquivo explícita em importações.
+
 ## 0.15.0 - 2024-10-14
 
 ### Added

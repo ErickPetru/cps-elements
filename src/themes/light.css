@@ -108,7 +108,7 @@
   --cps-color-background-acrylic-base: linear-gradient(rgb(243 243 243 / 90%), rgb(243 243 243 / 90%)),
     var(--cps-texture-acrylic) 0/75px repeat fixed;
 
-  --cps-color-background-overlay: rgb(113 113 122 / 33%);
+  --cps-color-backdrop: rgb(113 113 122 / 33%);
 
   /* Fill colors */
   --cps-color-fill-brand: var(--cps-palette-brand-600);
@@ -169,6 +169,7 @@
   /* Control stroke colors */
   --cps-color-stroke-primary: rgb(0 0 0 / 5.78%);
   --cps-color-stroke-secondary: rgb(0 0 0 / 16.22%);
+  --cps-color-stroke-tertiary: rgb(0 0 0 / 44.58%);
 
   --cps-color-stroke-inverted-primary: rgb(255 255 255 / 8%);
   --cps-color-stroke-inverted-secondary: rgb(0 0 0 / 40%);
